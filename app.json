@@ -1,0 +1,22 @@
+{
+  "name": "Telescopy",
+    "description": "Telegram Video Note Creator",
+    "keywords": ["video", "python", "round_video", "telegram"],
+    "repository": "https://github.com/NetworkChukka/Telescopy",
+  "env": {
+    "BOT_TOKEN": {
+            "description": "API Token for your Telegram bot (Take it from @BotFather)",
+            "required": true
+    },
+    {
+    "API_ID": {
+            "description": "API Token for your Telegram bot (Take it from @BotFather)",
+            "required": true
+    },
+    {
+    "API_HASH": {
+            "description": "API Token for your Telegram bot (Take it from @BotFather)",
+            "required": true
+    }
+  }
+}
