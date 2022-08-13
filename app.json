@@ -1,22 +1,39 @@
 {
   "name": "Telescopy",
-    "description": "Telegram Video Note Creator",
-    "keywords": ["video", "python", "round_video", "telegram"],
-    "repository": "https://github.com/NetworkChukka/Telescopy",
-  "env": {
-    "BOT_TOKEN": {
-            "description": "API Token for your Telegram bot (Take it from @BotFather)",
+  "description":"You can use this bot to create Video Notes",
+  "repository": "https://github.com/NetworkChukka/Telescopy",
+  "logo": "https://telegra.ph/file/fdea1462c32dda0b5a1f9.jpg",
+  "keywords": [
+    "telegraph bot",
+    "images",
+    "videos",
+    "animation",
+    "uploader",
+    "pyrogram bot"
+  ],
+      "env": {
+        "API_ID": {
+            "description": "Get from my.telegram.org/apps",
             "required": true
+        },
+        "API_HASH": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Get from Telegram's @BotFather",
+            "required": true
+        }
     },
-    {
-    "API_ID": {
-            "description": "API Token for your Telegram bot (Take it from @BotFather)",
-            "required": true
-    },
-    {
-    "API_HASH": {
-            "description": "API Token for your Telegram bot (Take it from @BotFather)",
-            "required": true
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
     }
-  }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
