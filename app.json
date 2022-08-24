@@ -21,7 +21,7 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Get from Telexgram's @BotFather",
+            "description": "Get from Tele xgram's @BotFather",
             "required": true
         }
     },
