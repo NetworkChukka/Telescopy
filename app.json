@@ -21,7 +21,7 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Get from Telegram's @BotFather",
+            "description": "Get from Telexgram's @BotFather",
             "required": true
         }
     },
